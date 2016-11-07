@@ -3,7 +3,7 @@ function logArgs(args) {
   console.log(args)
 }
 
-var functionString = logArgs.tostring()
+var functionString = logArgs.toString()
 
 var consoleLogExample = $("#console-log-example")
 
