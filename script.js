@@ -1,14 +1,13 @@
-// demo function
 function logArgs(args) {
-  var a = 1
+  var args = 1
   console.log(args)
 }
 
-var functionString = args.tostring();
+var functionString = logArgs.tostring()
 
-var consoleLogExample = $("#console-log-example");
+var consoleLogExample = $("#console-log-example")
 
-var formattedExample = $("<pre>");
+var formattedExample = $("<pre>")
 
 formattedExample.text(functionString)
 
