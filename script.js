@@ -4,12 +4,12 @@ function logArgs(args) {
   console.log(args)
 }
 
-var functionString = "how do I get the function as a string?"
+var functionString = logArg.tostring();
 
-var consoleLogExample = $("<ex1>")
+var consoleLogExample = $("#ex1");
 
-var formattedExample = $("<pre>")
+var formattedExample = $("<pre>");
 
-formattedExample.text(contents)
+formattedExample.text(functionString)
 
 consoleLogExample.html(formattedExample)
