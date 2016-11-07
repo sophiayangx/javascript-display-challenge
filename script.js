@@ -18,9 +18,9 @@ function perimeter(length, width) {
   console.log(length + length + width + width);
 };
 
-"\nperimeter(3,5)"
+var call = "\nperimeter(3,5)"
 
-var functionString = perimeter.toString()
+var functionString = perimeter.toString() + call
 
 var consoleLogExample = $("#function-example")
 
