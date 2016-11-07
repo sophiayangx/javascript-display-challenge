@@ -4,9 +4,9 @@ function logArgs(args) {
   console.log(args)
 }
 
-var functionString = logArg.tostring();
+var functionString = args.tostring();
 
-var consoleLogExample = $("#ex1");
+var consoleLogExample = $("#console-log-example");
 
 var formattedExample = $("<pre>");
 
