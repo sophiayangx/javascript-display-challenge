@@ -13,4 +13,11 @@ formattedExample.text(functionString)
 
 consoleLogExample.html(formattedExample)
 
-//function
+//function with argument
+//function(arg1, arg2)
+var perimeter = function(length, width) 
+{
+  console.log(length + length + width + width);
+};
+
+perimeter(3,5);
