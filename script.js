@@ -22,7 +22,7 @@ perimeter(3,5);
 
 var functionString = perimeter.toString()
 
-var consoleLogExample = $("#console-log-example")
+var consoleLogExample = $("#function-example")
 
 var formattedExample = $("<pre>")
 
