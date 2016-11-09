@@ -31,7 +31,7 @@ formattedExample.text(functionString)
 functionExample.html(formattedExample)
 
 //function takes in function
-var $().keydown(function(e) {	
+var $("#function-input").keydown(function(e) {	
   if (e.keyCode == "13") {
 console.log("hello")
   }
