@@ -83,8 +83,20 @@
           
           <b class="col-xs-5">Firebase:</b>
           <div class="col-xs-5" id="firebase-example">
-            <input type="text" id="firebase-input" placeholder="firebase example"/>
-            <div id="firebase-display"></div>
+
+            <pre>var input = $("#firebase-input")
+
+input.keydown(function(e) {	
+  if (e.keyCode == "13") {
+    var valueToSave = input.val();
+    addListItem("sophiasList", valueToSave);
+  }
+})
+
+onNewListItem("sophiasList", function(value) {
+  $("#firebase-display").append("<div>" + value + "</div>")
+}) </pre>
+            
           </div>
           
         </div>
