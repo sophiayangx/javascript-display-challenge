@@ -31,7 +31,8 @@ formattedExample.text(functionString)
 functionExample.html(formattedExample)
 
 //function takes in function
-
+get("variable", function(result) {
+}
 
 
 //jquery
