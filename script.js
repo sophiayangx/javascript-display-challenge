@@ -31,9 +31,16 @@ formattedExample.text(functionString)
 functionExample.html(formattedExample)
 
 //function takes in function
-get("variable", function(result) {
+function get("variable", function(result) {
+  
 }
 
+function get() {
+  setTimeout(function() {
+    callback(1)
+  }, 1000)
+}
+//get is a function
 
 //jquery
 var button = $("#button").click(function() {
