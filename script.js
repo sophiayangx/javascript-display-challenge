@@ -50,7 +50,7 @@ $(document).ready(function() {
       height: '-=10px'
     }); 
   });
-  $('colorblock').click(function() {
+  $('#colorblock').click(function() {
     $(this).toggle(1000);
   }); 
 });
