@@ -3,5 +3,8 @@
 }
     
 #colorblock {
-background-color: lightcoral;
+  background-color: lightcoral;
+  height: 30px;
+  width: 50px;
+  margin-top: 10px;
 }
