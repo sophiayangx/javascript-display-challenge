@@ -66,7 +66,7 @@ formattedExample.text(functionString)
 buttonExample.html(formattedExample)
 
 //firebase
-var input = $("#new-item-input")
+var input = $("#firebase-input")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
@@ -76,5 +76,5 @@ input.keydown(function(e) {
 })
 
 onNewListItem("sophiasList", function(value) {
-  $("#list-display").append("<div>" + value + "</div>")
+  $("#firebase-display").append("<div>" + value + "</div>")
 }) 
