@@ -36,15 +36,15 @@ functionExample.html(formattedExample)
 
 //jquery
 var button = $("#button").click(function() {
-  console.log("hihi");
+  console.log("Jquery Example");
 });
 
 var functionString = button.toString()
 
-var functionExample = $("#function-example")
+var buttonExample = $("#button")
 
 var formattedExample = $("<pre>")
 
 formattedExample.text(functionString)
 
-functionExample.html(formattedExample)
+buttonExample.html(formattedExample)
