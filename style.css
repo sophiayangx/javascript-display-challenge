@@ -7,8 +7,10 @@
   height: 70px;
   width: 70px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-boostrap-example {
-
+#boostrap-example {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
