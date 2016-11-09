@@ -64,3 +64,7 @@ var formattedExample = $("<pre>")
 formattedExample.text(functionString)
 
 buttonExample.html(formattedExample)
+
+//bootstrap
+
+//firebase
