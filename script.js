@@ -65,6 +65,3 @@ formattedExample.text(functionString)
 
 buttonExample.html(formattedExample)
 
-//bootstrap
-
-//firebase
