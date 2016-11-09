@@ -31,12 +31,21 @@ formattedExample.text(functionString)
 functionExample.html(formattedExample)
 
 //function takes in function
-
-$().keydown(function(e) {	
+var $().keydown(function(e) {	
   if (e.keyCode == "13") {
 console.log("hello")
   }
 })
+
+var functionString = perimeter.toString() + call
+
+var functionExample = $("#function-example")
+
+var formattedExample = $("<pre>")
+
+formattedExample.text(functionString)
+
+functionExample.html(formattedExample)
 
 //jquery
 $("#button").click(function() {
