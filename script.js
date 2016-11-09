@@ -31,8 +31,11 @@ formattedExample.text(functionString)
 consoleLogExample.html(formattedExample)
 
 //function takes in function
-function foodDemand(food) {
-  console.log("I want to eat" + " " + food)
-}
 
-foodDemand("Chips");
+
+
+//jquery
+$("#button").click(function() {
+  console.log("hihi");
+});
+
