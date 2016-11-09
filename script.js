@@ -22,20 +22,29 @@ var call = "\nperimeter(3,5)"
 
 var functionString = perimeter.toString() + call
 
-var consoleLogExample = $("#function-example")
+var functionExample = $("#function-example")
 
 var formattedExample = $("<pre>")
 
 formattedExample.text(functionString)
 
-consoleLogExample.html(formattedExample)
+functionExample.html(formattedExample)
 
 //function takes in function
 
 
 
 //jquery
-$("#button").click(function() {
+var button = $("#button").click(function() {
   console.log("hihi");
 });
 
+var functionString = button.toString()
+
+var functionExample = $("#function-example")
+
+var formattedExample = $("<pre>")
+
+formattedExample.text(functionString)
+
+functionExample.html(formattedExample)
