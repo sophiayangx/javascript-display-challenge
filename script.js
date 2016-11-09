@@ -31,16 +31,16 @@ formattedExample.text(functionString)
 functionExample.html(formattedExample)
 
 //function takes in function
-function get("variable", function(result) {
-  
-}
-
 function get() {
   setTimeout(function() {
     callback(1)
   }, 1000)
 }
-//get is a function
+
+keydown(function(e) {
+
+}
+//we don't know when the user is going to press enter but when they do, get this function
 
 //jquery
 var button = $("#button").click(function() {
