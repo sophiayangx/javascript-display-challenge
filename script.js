@@ -32,12 +32,11 @@ functionExample.html(formattedExample)
 
 //function takes in function
 
-//keydown(function(e) {	
-//  if (e.keyCode == "13") {
-//    var valueToSave = input.val();
-//    addListItem("sophiasList", valueToSave);
-//  }
-//})
+$().keydown(function(e) {	
+  if (e.keyCode == "13") {
+console.log("hello")
+  }
+})
 
 //jquery
 $("#button").click(function() {
