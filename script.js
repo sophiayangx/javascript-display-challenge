@@ -40,17 +40,17 @@ var button = $("#button").click(function() {
 });
 
 $(document).ready(function() {
-  $('div').mouseenter(function() {
+  $('#colorblock').mouseenter(function() {
     $(this).animate({
       height: '+=10px'
     });
   });
-  $('div').mouseleave(function() {
+  $('#colorblock').mouseleave(function() {
     $(this).animate({
       height: '-=10px'
     }); 
   });
-  $('div').click(function() {
+  $('colorblock').click(function() {
     $(this).toggle(1000);
   }); 
 });
