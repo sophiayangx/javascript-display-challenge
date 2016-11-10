@@ -40,7 +40,7 @@
             </p>
             
             <li>Function that takes in a function:</li><p>
-            Functions that take on a function are used when In this example, we don't know when the user is going to press enter but when they do, get this function.
+            Functions that take on a function are used when In this example, we don't know when the user is going to press enter but when they do, they get the function.
             </p>
 
             <b>Jquery:</b>
@@ -69,7 +69,7 @@
             <div id="function-take-function-ex">
               <pre>$("#function-input").keydown(function(e) {	
   if (e.keyCode == "13") {
-console.log("hello")
+    $("#function-input").css("background-color", "yellow");
   }
 })</pre>
               <input type="text" id="function-input" placeholder="function take function"/> 
